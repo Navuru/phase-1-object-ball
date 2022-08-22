@@ -2,6 +2,9 @@ console.log('Advanced debugging example running.')
 debugger
 
 // first, define the function.
+function gameObject (){
+  return;
+}
 function goodPractices() {
   let game = gameObject();
   for (let gameKey in game) {
